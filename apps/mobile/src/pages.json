@@ -1,0 +1,457 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^Love(.*)": "@/components/Love$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/splash/index",
+      "style": {
+        "navigationBarTitleText": "启动页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录页",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/post/index",
+      "style": {
+        "navigationBarTitleText": "广场首页",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/meet/index",
+      "style": {
+        "navigationBarTitleText": "遇见首页",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/publish/index",
+      "style": {
+        "navigationBarTitleText": "发布入口",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/ai/index",
+      "style": {
+        "navigationBarTitleText": "AI恋人首页",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationBarTitleText": "我们首页",
+        "navigationStyle": "default"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pages/post",
+      "pages": [
+        {
+          "path": "detail",
+          "style": {
+            "navigationBarTitleText": "动态详情页"
+          }
+        },
+        {
+          "path": "publish",
+          "style": {
+            "navigationBarTitleText": "发布动态页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/diary",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "日记首页"
+          }
+        },
+        {
+          "path": "edit",
+          "style": {
+            "navigationBarTitleText": "写日记页"
+          }
+        },
+        {
+          "path": "detail",
+          "style": {
+            "navigationBarTitleText": "日记详情页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/ai",
+      "pages": [
+        {
+          "path": "chat",
+          "style": {
+            "navigationBarTitleText": "AI聊天页"
+          }
+        },
+        {
+          "path": "memory",
+          "style": {
+            "navigationBarTitleText": "AI记忆页"
+          }
+        },
+        {
+          "path": "report",
+          "style": {
+            "navigationBarTitleText": "AI周报页"
+          }
+        },
+        {
+          "path": "analysis",
+          "style": {
+            "navigationBarTitleText": "AI恋爱分析页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/bottle",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "漂流瓶首页"
+          }
+        },
+        {
+          "path": "detail",
+          "style": {
+            "navigationBarTitleText": "漂流瓶详情页"
+          }
+        },
+        {
+          "path": "throw",
+          "style": {
+            "navigationBarTitleText": "扔漂流瓶页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/meet",
+      "pages": [
+        {
+          "path": "nearby",
+          "style": {
+            "navigationBarTitleText": "附近的人页"
+          }
+        },
+        {
+          "path": "soul",
+          "style": {
+            "navigationBarTitleText": "灵魂匹配"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/chat",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "会话列表页"
+          }
+        },
+        {
+          "path": "detail",
+          "style": {
+            "navigationBarTitleText": "私聊详情页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/common",
+      "pages": [
+        {
+          "path": "image-preview",
+          "style": {
+            "navigationBarTitleText": "图片预览页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/wish",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "愿望清单页"
+          }
+        },
+        {
+          "path": "edit",
+          "style": {
+            "navigationBarTitleText": "添加愿望页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/anniversary",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "纪念日页"
+          }
+        },
+        {
+          "path": "edit",
+          "style": {
+            "navigationBarTitleText": "添加纪念日页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/couple",
+      "pages": [
+        {
+          "path": "bind",
+          "style": {
+            "navigationBarTitleText": "情侣绑定页"
+          }
+        },
+        {
+          "path": "invite",
+          "style": {
+            "navigationBarTitleText": "邀请对象页"
+          }
+        },
+        {
+          "path": "space",
+          "style": {
+            "navigationBarTitleText": "情侣空间页"
+          }
+        },
+        {
+          "path": "timeline",
+          "style": {
+            "navigationBarTitleText": "恋爱时间轴页"
+          }
+        },
+        {
+          "path": "album",
+          "style": {
+            "navigationBarTitleText": "共同相册页"
+          }
+        },
+        {
+          "path": "album-detail",
+          "style": {
+            "navigationBarTitleText": "相册详情页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/notification",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "消息中心页"
+          }
+        },
+        {
+          "path": "like",
+          "style": {
+            "navigationBarTitleText": "点赞通知页"
+          }
+        },
+        {
+          "path": "comment",
+          "style": {
+            "navigationBarTitleText": "评论通知页"
+          }
+        },
+        {
+          "path": "ai",
+          "style": {
+            "navigationBarTitleText": "AI提醒页"
+          }
+        },
+        {
+          "path": "couple",
+          "style": {
+            "navigationBarTitleText": "情侣通知页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        {
+          "path": "home",
+          "style": {
+            "navigationBarTitleText": "用户主页页"
+          }
+        },
+        {
+          "path": "profile",
+          "style": {
+            "navigationBarTitleText": "编辑资料页"
+          }
+        },
+        {
+          "path": "my-diary",
+          "style": {
+            "navigationBarTitleText": "我的日记页"
+          }
+        },
+        {
+          "path": "my-post",
+          "style": {
+            "navigationBarTitleText": "我的动态页"
+          }
+        },
+        {
+          "path": "collect",
+          "style": {
+            "navigationBarTitleText": "我的收藏页"
+          }
+        },
+        {
+          "path": "following",
+          "style": {
+            "navigationBarTitleText": "我的关注页"
+          }
+        },
+        {
+          "path": "followers",
+          "style": {
+            "navigationBarTitleText": "我的粉丝页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/vip",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "VIP首页"
+          }
+        },
+        {
+          "path": "purchase",
+          "style": {
+            "navigationBarTitleText": "开通会员页"
+          }
+        },
+        {
+          "path": "couple",
+          "style": {
+            "navigationBarTitleText": "情侣会员页"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/settings",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "设置首页"
+          }
+        },
+        {
+          "path": "privacy",
+          "style": {
+            "navigationBarTitleText": "隐私设置页"
+          }
+        },
+        {
+          "path": "blocklist",
+          "style": {
+            "navigationBarTitleText": "黑名单页"
+          }
+        },
+        {
+          "path": "about",
+          "style": {
+            "navigationBarTitleText": "关于我们页"
+          }
+        },
+        {
+          "path": "legal",
+          "style": {
+            "navigationBarTitleText": "协议与政策"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "恋恋",
+    "navigationBarBackgroundColor": "#FFF5F8",
+    "backgroundColor": "#FFF5F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF6B9D",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/post/index",
+        "text": "广场",
+        "iconPath": "static/tab/square.png",
+        "selectedIconPath": "static/tab/square-active.png"
+      },
+      {
+        "pagePath": "pages/meet/index",
+        "text": "遇见",
+        "iconPath": "static/tab/meet.png",
+        "selectedIconPath": "static/tab/meet-active.png"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "text": "发布",
+        "iconPath": "static/tab/publish.png",
+        "selectedIconPath": "static/tab/publish-active.png"
+      },
+      {
+        "pagePath": "pages/ai/index",
+        "text": "AI恋人",
+        "iconPath": "static/tab/ai.png",
+        "selectedIconPath": "static/tab/ai-active.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我们",
+        "iconPath": "static/tab/me.png",
+        "selectedIconPath": "static/tab/me-active.png"
+      }
+    ]
+  }
+}

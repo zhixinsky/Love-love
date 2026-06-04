@@ -1,0 +1,17 @@
+{
+  "name": "love-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "恋恋 — 恋爱日记 + AI恋人平台",
+  "scripts": {
+    "generate:pages": "node scripts/generate-mobile-pages.mjs",
+    "dev:mobile": "npm run dev --prefix apps/mobile",
+    "dev:server": "npm run start:dev --prefix apps/server",
+    "dev:admin": "npm run dev --prefix apps/admin",
+    "build:server": "npm run build --prefix apps/server",
+    "build:admin": "npm run build --prefix apps/admin"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

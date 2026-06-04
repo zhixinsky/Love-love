@@ -1,0 +1,42 @@
+.love-card {
+  background: $love-white;
+  border-radius: 24rpx;
+  padding: 32rpx;
+  margin-bottom: 24rpx;
+  box-shadow: 0 8rpx 24rpx rgba(255, 107, 157, 0.08);
+}
+
+.love-btn {
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 44rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.love-btn-primary {
+  background: linear-gradient(135deg, #ff6b9d, #ff8fab);
+  color: #fff;
+}
+
+.love-btn-outline {
+  background: #fff;
+  color: $love-primary;
+  border: 2rpx solid $love-primary;
+}
+
+.love-input {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx 28rpx;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+.love-section-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: $love-text;
+  margin-bottom: 20rpx;
+}
